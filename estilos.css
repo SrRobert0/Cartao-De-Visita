@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url("imagens/triangles-1430105.svg");
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Cartão */
+
+.cartao {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.infos {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Foto */
+
+img {
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Informações */
+
+ol {
+    list-style: none;
+    font-size: 15pt;
+    line-height: 1.9;
+}
+
+p {
+    margin: 20px 0 40px 20px;
+    font-size: 15pt;
+}
+
+li a {
+    color: rgb(95, 175, 255);
+    text-decoration: none;
+}
